@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px transparent;
+    background-color: #ffff;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.logo {
+    width: 10%;
+}
+
+.title {
+    text-align: center;
+    font-family: Palatino, sans-serif;
+    font-size: 24px;
+    font-weight: inherit;
+}
+
+.menuShop {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Palatino, sans-serif;
+    font-weight: bold;
+}
+.menuShopItem {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    list-style: none;
+    margin: 0 40px 0 0;
+}
+
+.menuIdentify {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuIdentifyItem {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    list-style: none;
+}
