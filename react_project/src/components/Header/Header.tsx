@@ -3,6 +3,7 @@ import {FC, memo} from "react";
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import SearchIcon from '@mui/icons-material/Search';
+import {IconButton} from "@mui/material";
 import style from './header.module.css'
 
 const Header: FC = () => {
@@ -38,15 +39,15 @@ const Header: FC = () => {
 
             <ul className={style.menuIdentify}>
                 <li className={style.menuIdentifyItem}>
-                    <SearchIcon />
+                    <IconButton irea-lebel="Send"  size="large"><SearchIcon/></IconButton>
                 </li>
 
                 <li className={style.menuIdentifyItem}>
-                    <FavoriteBorderIcon />
+                    <IconButton irea-lebel="Send"  size="large"><FavoriteBorderIcon/></IconButton>
                 </li>
 
                 <li className={style.menuIdentifyItem}>
-                    <PersonOutlineIcon />
+                    <IconButton irea-lebel="Send" size="large"><PersonOutlineIcon/></IconButton>
                 </li>
             </ul>
         </header>

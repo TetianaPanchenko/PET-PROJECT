@@ -1,0 +1,38 @@
+.main {
+    width: 100%;
+    background-color: #FFFFFFFF;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFFFF;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.wrapperContact {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    margin: 70px 20px 0 20px;
+    padding: 40px 40px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.margin {
+    margin: 0;
+}
+
+.marginBottom {
+    margin-bottom: 0;
+}
+
+.text {
+    padding-bottom: 70px;
+    text-align: center;
+}
