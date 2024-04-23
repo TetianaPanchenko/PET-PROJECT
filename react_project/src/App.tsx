@@ -1,11 +1,14 @@
 import './App.css'
-// import Header from "./components/Header/Header.tsx";
-import ContactPage from "./pages/ContactPage/ContactPage.tsx";
+
+// import ContactPage from "./pages/ContactPage/ContactPage.tsx";
+import ShoppingCardPage from "./pages/ShoppingCardPage/ShoppingCardPage.tsx";
 
 function App() {
     return (
-        // <Header />
-        <ContactPage />
+        <div>
+            {/*<ContactPage />*/}
+            <ShoppingCardPage />
+        </div>
         )
 }
 
